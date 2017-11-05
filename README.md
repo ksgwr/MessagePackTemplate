@@ -1,6 +1,6 @@
-MessagePack Template Library
+# MessagePack Template Library
 
-概要
+## 概要
 
 MessagePackTemplateを含むライブラリです。
 javaの実装ではフィールド名がシリアライズされないことに注目し、
@@ -8,17 +8,17 @@ javaの実装ではフィールド名がシリアライズされないことに�
 普通のオブジェクトをフィールド名を含めてシリアライズするためのMapObjectTemplateを用意してあります
 
 
-サンプル
+## サンプル
 
 各テストケースを参照してください。
 
 
-ライセンス
+## ライセンス
 
 Apache License, Version 2.0
 
 
-使い方
+## 使い方
 
 pom.xmlに以下を記述
 
