@@ -16,3 +16,25 @@ javaの実装ではフィールド名がシリアライズされないことに�
 ライセンス
 
 Apache License, Version 2.0
+
+
+使い方
+
+pom.xmlに以下を記述
+
+```
+<repositories>
+  <repository>
+    <id>ksgwr-repo</id>
+    <url>http://ksgwr.github.io/mvn-repo/</url>
+  </repository>
+</repositories>
+
+<dependencies>
+  <dependency>
+    <groupId>jp.ksgwr</groupId>
+    <artifactId>msgpack-template</artifactId>
+    <version>0.0.1</version>
+  </dependency>
+</dependencies>
+```
