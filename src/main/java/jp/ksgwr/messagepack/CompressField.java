@@ -12,6 +12,9 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface CompressField {
-	/** number value (unique) */
+	/**
+	 * number value (unique)
+	 * @return field number
+	 */
 	int value();
 }

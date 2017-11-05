@@ -14,7 +14,7 @@ import org.msgpack.unpacker.Unpacker;
 
 
 /**
- * serialize/desirialize POJO Object MessagePack Template for using Map<String, Object>
+ * serialize/desirialize POJO Object MessagePack Template for using Map(String, Object)
  */
 public class ObjectTemplate extends AbstractTemplate<Object> {
 
@@ -25,13 +25,16 @@ public class ObjectTemplate extends AbstractTemplate<Object> {
 	private ObjectTemplate() {
 	}
 
-	/** get singleton instance */
+	/**
+	 * get singleton instance
+	 * @return ObjectTemplate instance
+	 */
 	public static ObjectTemplate getInstance() {
 		return INSTANCE;
 	}
 
 	/**
-	 * POJO object to Map<String, Object>
+	 * POJO object to Map(String, Object)
 	 * @param obj pojo object
 	 * @return map object
 	 */
