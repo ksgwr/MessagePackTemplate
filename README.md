@@ -1,4 +1,4 @@
-# MessagePack Template Library
+# MessagePack Template Library [![Build Status](https://travis-ci.org/ksgwr/MessagePackTemplate.svg?branch=master)](https://travis-ci.org/ksgwr/MessagePackTemplate)
 
 ## 概要
 
